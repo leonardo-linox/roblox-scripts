@@ -25,3 +25,6 @@ while true do
 	wait(5)
 	openorclosedoor(door)
 end
+
+
+openorclosedoor(door1)
