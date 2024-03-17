@@ -1,21 +1,25 @@
---in workspace add one part called hidendoor
-
-local door = workspace.hidendoor
-
-function openorclosedoor(door)
-    if door.Visible then
-        
-        door.CanCollide = false
-        door.Visible = false
-    else
-        
-        door.CanCollide = true
-        door.Visible = true
-    end
+function openorclosedoor(x)
+	
+	if x.Transparency == 0 then
+		
+		-- Torna a porta invisivel
+		x.CanCollide = false
+		x.Transparency = 1
+		
+	else
+		-- Torna a porta visivel
+		x.CanCollide = true
+		x.Transparency = 0
+		
+	end
+	
 end
 
-while true do
-    wait(5)
-    openorclosedoor(door)
 
+
+local door = workspace.hidendoor -- create a part or unicon called hidendoor
+
+while true do
+	wait(5)
+	openorclosedoor(door)
 end
