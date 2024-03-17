@@ -1,3 +1,5 @@
+-- função abre fecha porta
+
 function openorclosedoor(x)
 	
 	if x.Transparency == 0 then
