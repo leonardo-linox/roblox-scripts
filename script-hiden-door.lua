@@ -26,5 +26,3 @@ while true do
 	openorclosedoor(door)
 end
 
-
---vou construir uma nova função
