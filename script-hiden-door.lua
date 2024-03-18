@@ -1,15 +1,15 @@
--- função abre fecha porta
+-- function open and close door
 
 function openorclosedoor(x)
 	
 	if x.Transparency == 0 then
 		
-		-- Torna a porta invisivel
+		-- turn door invisible
 		x.CanCollide = false
 		x.Transparency = 1
 		
 	else
-		-- Torna a porta visivel
+		-- turn door visible
 		x.CanCollide = true
 		x.Transparency = 0
 		
