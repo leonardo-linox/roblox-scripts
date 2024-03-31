@@ -8,3 +8,10 @@ script:
 [proximity](./proximity-prompt-door.lua) 
 
 ![example](./images/prox.png)
+
+## Five seconds door
+
+script:
+[door](./script-hiden-door.lua)
+
+![example](./images/second.png)
